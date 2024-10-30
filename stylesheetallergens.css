@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@400&display=swap');
+
+
+body {
+
+margin: 0;
+
+padding: 20px;
+
+font-family: 'Arial', sans-serif;
+
+text-align: center;
+
+background-color: lightpink;
+
+background-image: url('img_cookies.jpg');
+
+background-size: cover;
+
+background-position: center;
+
+color:#333;
+
+header {
+            background-color: #ffb347;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+h1 {
+
+margin: 0;
+
+font-size: 3em;
+
+font-family: 'Arial', sans-serif;
+
+}
+
+
+section {
+
+margin: 20px 0;
+
+background-color:#ff8c46;
+
+padding: 30px;
+
+border-radius: 8px;
+
+display: inline-block; }
+
+
+ul {
+
+list-style-type: none;
+
+padding: 0;
+
+}
+
+
+table {
+
+margin: 20px auto;
+
+border-collapse: collapse;
+
+width: 80%;
+
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+border-radius: 8px;
+
+overflow: hidden;
+
+}
+
+
+th, td {
+
+border: 1px solid #ddd;
+
+padding: 15px;
+
+text-align: left;
+
+}
+
+
+th {
+
+background-color: rgba(255, 204, 0, 0.8);
+
+color: #fff;
+
+font-weight: bold;
+
+}
+
+
+tbody tr:nth-child(even) {
+
+background-color: rgba(255, 255, 255, 0.9);
+
+}
+
+
+tbody tr:nth-child(odd) {
+
+background-color: rgba(240, 240, 240, 0.9);
+
+}
+
+
+tbody tr:hover {
+
+background-color: rgba(255, 204, 0, 0.4);
+
+transition: background-color 0.3s;
+
+}
+
+
+tbody td {
+
+font-size: 0.9em;
+
+color: #333;
+
+}
+
+
+@media (max-width: 768px) {
+
+table { width: 100%; }
+
+
+th, td { padding: 10px; }
+
+
+h1 { font-size: 2.5em; }
